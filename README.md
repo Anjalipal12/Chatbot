@@ -36,6 +36,7 @@ This chatbot interacts with Google’s **Generative AI** model (Gemini 2.0) usin
 ---
 
 ## 📂 Folder Structure
+
 hltro/
 │
 ├── .env # API key (not pushed to GitHub)
@@ -44,42 +45,59 @@ hltro/
 ├── pyproject.toml # uv project config
 ├── uv.lock # Package lock file
 └── README.md # This file
+
 ---
-## 2. Create virtual environment
-uv venv
-.venv\Scripts\activate
+## 2. Create virtual environment:
+   uv venv
+   .venv\Scripts\activate
+   
 ---
-## 3. Install dependencies
+
+## 3. Install dependencies:
 uv add -r requirements.txt
+
 ---
-## 4. Add your API key
+
+## 4. Add your API key:
+
 Create a file named .env : GOOGLE_API_KEY=your_api_key_here
+
 ---
-## 5.  Run the App
+
+## 5.  Run the App:
+
 streamlit run app.py
+
 ---
 
 👩‍💻 Created By
 Anjali Pal
 🎓 B.Tech (CS-AI), Arya College of Engineering, Jaipur
 📧 anjalipal2912@gmail.com
+
 ---
-🏁 Purpose
+🏁 Purpose :
 This project is part of my learning journey in AI + Web UI Development.
 It showcases backend integration with Gemini (Generative AI) and frontend skills using Streamlit — a perfect example of combining ML and full-stack development.
+
 ---
-🌱 Future Enhancements
+
+# 🌱 Future Enhancements
+
 Add voice input and output support
-
 Save and display chat history
-
 Allow switching between text, image, and audio models
+
 ---
+
 🌍 Live Demo (Optional)
 Add a link here when you deploy via Streamlit Cloud / Render / HuggingFace
+
 ---
+
 🛡️ License
 MIT License — free to use with proper credit.
+
 ---
 
 ### ✅ What To Do Next
