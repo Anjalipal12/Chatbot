@@ -39,3 +39,9 @@ git init
 git add
 git commit -m "added"
 
+
+Now go to Streamlit cloud ----> Create an account on it by using github .
+
+click on 'Create App' ----> click on 'Deploy a public app on github' ---> 
+
+click on advanced setting ---> paste your api key here in string format.
