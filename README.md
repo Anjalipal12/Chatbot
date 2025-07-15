@@ -45,39 +45,7 @@ hltro/
 ├── uv.lock # Package lock file
 └── README.md # This file
 
----
-
-## 🚀 How to Run
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/Anjalipal12/Chatbot.git
-cd Chatbot
-
----
-
-## 🚀 How to Run
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/Anjalipal12/Chatbot.git
-cd Chatbot
 2. Create virtual environment
-bash
-Copy
-Edit
 uv venv
 .venv\Scripts\activate
 3. Install dependencies
-bash
-Copy
-Edit
-uv add -r requirements.txt
-4. Add your API key
-Create a file named .env and paste:
-
-env
-Copy
-Edit
