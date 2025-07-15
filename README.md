@@ -45,7 +45,14 @@ hltro/
 ├── uv.lock # Package lock file
 └── README.md # This file
 
-2. Create virtual environment
+#2. Create virtual environment
 uv venv
 .venv\Scripts\activate
-3. Install dependencies
+#3. Install dependencies
+uv add -r requirements.txt
+#4. Add your API key
+Create a file named .env : GOOGLE_API_KEY=your_api_key_here
+#5.  Run the App
+streamlit run app.py
+🤖 Sample Output
+(Add a screenshot here later as screenshot.png)
