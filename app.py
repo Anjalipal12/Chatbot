@@ -15,7 +15,9 @@ model = genai.GenerativeModel("gemini-2.0-flash")
 # Step 4: Create a function to handle user query
 def get_gemini_response(query):
     response = model.generate_content(query)
-    return response.text 
+    print("Gemini raw response:", response)   # 👈 yeh line add karo
+    return response.text
+
 
 # Step 5: Streamlit UI Setup
 st.set_page_config(page_title="Sync_pro_bot")
