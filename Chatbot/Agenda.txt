@@ -1,0 +1,47 @@
+chatbot ----> user input ----> bot hamara jo ha voh response karega text format ma.
+
+steps
+
+uv init heltro
+
+uv venv
+
+.venv\Scripts\activate
+
+Now we will create a requirements.txt file ------> 
+
+streamlit  ----> for ui
+
+python-dotenv ----> application ka liya jo secrets ha un secrets ko jiss file ka andar uski need ha vah import karsake , so at last using this method , we acn import our secrets in main files.
+
+googlegenerativeai ---> gemini ki library ha jiski help sa hum apni api key ko connect karta ha apna model ka saath ma
+
+API  ---> Application Programming Interface ---> User aur server ka beech ma jo communication karta ha voh API karta ha
+
+Now open the terminal and write
+
+uv add -r requirements.txt
+
+
+Now we have to create a .env file ---> where we can store our secret credentials.
+
+Now we have to create app.py file ---> where we have to write main logic.
+
+function banyenga(user sa input/query lenge) ---> google_generative_model + gemini_api_key ---> response in text
+
+apan ka jo ya kaam hua uska better UI provide karyenga streamlit sa 
+UI ---> streamlit
+
+open the terminal and write app.py
+
+now push the entire code on github:--
+git init
+git add
+git commit -m "added"
+
+
+Now go to Streamlit cloud ----> Create an account on it by using github .
+
+click on 'Create App' ----> click on 'Deploy a public app on github' ---> 
+
+click on advanced setting ---> paste your api key here in string format.
